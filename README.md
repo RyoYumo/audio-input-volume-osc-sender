@@ -14,6 +14,8 @@ The connected IP address, port and key info are displayed.
 
 <img width="320" alt="screen shot 2018-11-27 at 13 47 40" src="https://user-images.githubusercontent.com/23047341/49059399-17785b00-f24c-11e8-9b00-02182243f662.png">
 
+![ezgif com-optimize](https://user-images.githubusercontent.com/23047341/49064181-65498f00-f25d-11e8-87be-97c8789ddbba.gif)
+
 ### Dependency
 - openFrameworks v0.9.8
 - ofxOsc
