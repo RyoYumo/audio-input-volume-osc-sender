@@ -1,7 +1,7 @@
 # AudioInputVolumeOscSender
 
 ### Overview
-This simple software can smooth the volume input from the selected audio device and send it to other applications via OSC
+This simple software can smooth the volume input from the selected audio device and send it to other applications via OSC.This software can accelerate the production of audio reactive content.
 
 <img width="320" alt="screen shot 2018-11-27 at 13 47 40" src="https://user-images.githubusercontent.com/23047341/49059399-17785b00-f24c-11e8-9b00-02182243f662.png">
 
