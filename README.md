@@ -4,6 +4,11 @@
 This simple software can smooth the volume input from the selected audio device and send it to other applications via OSC.
 It can accelerate the production of audio reactive content.
 
+### Install
+Download this repo and add "AudioVolumeOscSender" directory of_v0.9.8_osx_release/apps/myApps.
+
+<img width="618" alt="screen shot 2018-11-27 at 16 01 57" src="https://user-images.githubusercontent.com/23047341/49064396-223beb80-f25e-11e8-8afb-3efd9bb215ad.png">
+
 ### Usage and UI
 When activated, a dialog box with a list of available audio devices is displayed, and you can select the device to use by entering the ID.
 
