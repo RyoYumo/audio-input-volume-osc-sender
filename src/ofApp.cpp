@@ -42,7 +42,7 @@ public:
     void update(){
         
         scaled_vol = ofClamp(ofMap(smoothed_vol, 0.f, 0.17, 0.f, 1.f), 0.f, 1.f);
-//        scaled_vol = ofMap(smoothed_vol, 0.f, 0.17, 0.f, 1.f);
+        //        scaled_vol = ofMap(smoothed_vol, 0.f, 0.17, 0.f, 1.f);
     }
     
     void draw(){
@@ -117,3 +117,4 @@ int main( ){
     ofRunApp(new ofApp());
     
 }
+
