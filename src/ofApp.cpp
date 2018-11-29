@@ -40,9 +40,7 @@ public:
     }
     
     void update(){
-        
-        scaled_vol = ofClamp(ofMap(smoothed_vol, 0.f, 0.17, 0.f, 1.f), 0.f, 1.f);
-        //        scaled_vol = ofMap(smoothed_vol, 0.f, 0.17, 0.f, 1.f);
+        scaled_vol = ofMap(smoothed_vol, 0.f, 0.17, 0.f, 1.f);
     }
     
     void draw(){
@@ -53,8 +51,6 @@ public:
         ofDrawBitmapString("---Key info ----", 20, 100);
         ofDrawBitmapString("press 's': Stop audio", 20, 120);
         ofDrawBitmapString("press 'p': Play audio", 20, 140);
-        
-        drawAudioInput();
     }
     
     void keyPressed(int key){
@@ -85,15 +81,7 @@ public:
     }
     
     void drawAudioInput(){
-        ofPushMatrix();
-        ofPushStyle();
-        ofTranslate(20, 180);
-        ofNoFill();
-        ofDrawRectangle(0, 0, 240, 50);
-        ofPopStyle();
-        ofFill();
-        ofDrawRectangle(0,0 , 240 * scaled_vol, 50);
-        ofPopMatrix();
+        
     }
     
     
@@ -109,7 +97,7 @@ private:
 
 //========================================================================
 int main( ){
-    ofSetupOpenGL(320,280,OF_WINDOW);            // <-------- setup the GL context
+    ofSetupOpenGL(320,200,OF_WINDOW);            // <-------- setup the GL context
     
     // this kicks off the running of my app
     // can be OF_WINDOW or OF_FULLSCREEN
@@ -117,4 +105,3 @@ int main( ){
     ofRunApp(new ofApp());
     
 }
-
