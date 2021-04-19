@@ -1,4 +1,4 @@
-# AudioInputVolumeOscSender
+# audio-input-volume-osc-sender
 
 ### Overview
 This simple software can smooth the input volume from the selected audio device and send it to other applications via OSC.
