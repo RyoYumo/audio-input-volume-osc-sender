@@ -11,10 +11,8 @@ It can accelerate the production of audio reactive contents.
 
 
 ### Usage and UI
-When activated, a dialog box with a list of available audio devices is displayed, and you can select the device to use by entering the ID.
-
+When you launch the software, a dialog box will appear showing a list of available audio devices, and you can select the device you want to use by entering the ID of any input device.
 <img width="422" alt="screen shot 2018-11-27 at 13 47 27" src="https://user-images.githubusercontent.com/23047341/49059386-fe6faa00-f24b-11e8-88ef-43b4c579fc5d.png">
-
 
 The connected IP address, port and key info are displayed.
 
